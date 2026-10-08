@@ -1,0 +1,5 @@
+// Copyright 2026 Lebedev Vladislav
+#ifndef LIB_MULTISTACK_MULTISTACK_H_
+#define LIB_MULTISTACK_MULTISTACK_H_
+
+#endif  // LIB_MULTISTACK_MULTISTACK_H_
