@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # название проекта
-project(Algorithms-and-Data-Structures)
+project(DataStructure)
 
 # затем следует список инструкций для подключения проектов из подкаталогов
 
@@ -21,7 +21,7 @@ option(BTEST "build test?" ON)        # указываем подключаем 
 
 if(BTEST)                             # если тесты подключены         
     set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
-    add_subdirectory("third_party/gtest" EXCLUDE_FROM_ALL)
+    add_subdirectory("googletest" EXCLUDE_FROM_ALL)
     enable_testing()
     add_subdirectory(tests)
 endif()
